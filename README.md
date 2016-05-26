@@ -4,27 +4,27 @@ LaTeX template for CV or resume with modern and smart infographic-style elements
 ## Required Packages (Debian/Ubuntu instructions)
 texlive
 ```
-$ sudo apt-get install texlive
+sudo apt-get install texlive
 ```
 
 texlive-xetex
 ```
-$ sudo apt-get install texlive-xetex
+sudo apt-get install texlive-xetex
 ```
 
 texlive-lualatex
 ```
-$ sudo apt-get install texlive-luatex
+sudo apt-get install texlive-luatex
 ```
 
 texlive-math-extra
 ```
-$ sudo apt-get install texlive-math-extra
+sudo apt-get install texlive-math-extra
 ```
 
 texmaker
 ```
-$ sudo apt-get install texmaker
+sudo apt-get install texmaker
 ```
 
 ## Compilation
