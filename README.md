@@ -1,5 +1,5 @@
 # Smart Fancy LaTeX CV
-LaTeX template for CV or resume, with modern and smart infographic-style elements including fontawesome support.
+LaTeX template for CV or resume with modern and smart infographic-style elements including fontawesome support.
 
 ## Required Packages (Debian/Ubuntu instructions)
 texlive
@@ -29,11 +29,14 @@ $ sudo apt-get install texmaker
 
 ## Author
 Carmine Benedetto
+
 http://www.carminebenedetto.net
 
 ## References
 Developed on ShareLaTeX
+
 https://www.sharelatex.com
 
 Based on Fancy CV template created by Adrien Friggeri
+
 https://www.sharelatex.com/templates/52fb8c1f33621a613683ecad
