@@ -14,7 +14,7 @@ $ sudo apt-get install texlive-xetex
 
 texlive-lualatex
 ```
-$ sudo apt-get install texlive-lualatex
+$ sudo apt-get install texlive-luatex
 ```
 
 texlive-math-extra
@@ -26,6 +26,16 @@ texmaker
 ```
 $ sudo apt-get install texmaker
 ```
+
+## Compilation
+Open cv.tex with TexMaker and compile using XeLaTeX
+
+## Fontawesom support
+To enable fontawesome support, include the fontawesome package in the cv.tex file
+```
+\usepackage{fontawesome}
+```
+and compile the document using LuaLaTex
 
 ## Author
 Carmine Benedetto
