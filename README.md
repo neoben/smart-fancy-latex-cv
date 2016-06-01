@@ -1,6 +1,8 @@
 # Smart Fancy LaTeX CV
 LaTeX template for CV or resume with modern and smart infographic-style elements including fontawesome support.
 
+![CV Screenshot](http://www.carminebenedetto.net/_downloads/smart-fancy-latex-cv-screenshot.jpg)
+
 ## Required Packages (Debian/Ubuntu instructions)
 texlive
 ```
