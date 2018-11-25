@@ -199,9 +199,9 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
 \newcommand{\entry}[4]{%
   #1&\parbox[t]{16cm}{%
-    \textbf{#2}%
+	\begin{large}\textbf{#2}\end{large}%
     \hfill%
-    {\footnotesize\addfontfeature{Color=pblue} #3}\\%
+    {\small\addfontfeature{Color=pblue} #3}\\%
     #4\vspace{9pt}%
   }\\}
 
