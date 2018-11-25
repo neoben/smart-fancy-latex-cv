@@ -4,19 +4,19 @@
 \usepackage{hyperref}
 \usepackage{color}
 \usepackage{xcolor}
-\usepackage{smartdiagram}
 \usepackage{fontspec}
+%\usepackage[leftmargin=4cm, rightmargin=1cm]{quoting}
 % if you want to add fontawesome package
 % you need to compile the tex file with LuaLaTeX
 % References:
 %   http://texdoc.net/texmf-dist/doc/latex/fontawesome/fontawesome.pdf
 %   https://www.ctan.org/tex-archive/fonts/fontawesome?lang=en
 %\usepackage{fontawesome}
-\usepackage{metalogo}
-\usepackage{dtklogos}
+%\usepackage{metalogo}
+%\usepackage{dtklogos}
 \usepackage[utf8]{inputenc}
-\usepackage{tikz}
-\usetikzlibrary{mindmap,shadows}
+%\usepackage{tikz}
+%\usetikzlibrary{mindmap,shadows}
 \hypersetup{
     pdftitle={},
     pdfauthor={},
@@ -25,32 +25,12 @@
     colorlinks=false,           % no lik border color
     allbordercolors=white       % white border color for all
 }
-\smartdiagramset{
-    bubble center node font = \footnotesize,
-    bubble node font = \footnotesize,
-    % specifies the minimum size of the bubble center node
-    bubble center node size = 0.5cm,
-    %  specifies the minimum size of the bubbles
-    bubble node size = 0.5cm,
-    % specifies which is the distance among the bubble center node and the other bubbles
-    distance center/other bubbles = 0.3cm,
-    % sets the distance from the text to the border of the bubble center node
-    distance text center bubble = 0.5cm,
-    % set center bubble color
-    bubble center node color = pblue,
-    % define the list of colors usable in the diagram
-    set color list = {lightgray, materialcyan, orange, green, materialorange, materialteal, materialamber, materialindigo, materialgreen, materiallime},
-    % sets the opacity at which the bubbles are shown
-    bubble fill opacity = 0.6,
-    % sets the opacity at which the bubble text is shown
-    bubble text opacity = 0.5,
-}
 
-\addbibresource{bibliography.bib}
 \RequirePackage{xcolor}
 \definecolor{pblue}{HTML}{0395DE}
 
 \begin{document}
+
 \header{Wesley}{ Banfield}
       {\hspace{5.05cm}Unconventional Thinker - Geologist - Software Engineer}
       
@@ -59,56 +39,97 @@
 .....
 }}
 
-% In the aside, each new line forces a line break
+%% In the aside, each new line forces a line break
 \begin{aside}
   \includegraphics[width=3.5cm]{img/profile_relaxed.png}
+  ~\\[6pt]	
   \includegraphics[width=3.5cm]{img/QR.png}
-  \section{Contact}
-    \href{mailto:wesleybanfield@gmail.com}{\textbf{wesleybanfield@}\\gmail.com}\vspace{3pt}
-    +64 27 777 55 09\vspace{3pt}
-    25A Beckford Road,
-    Christchurch, 8022
-  \section{Web \& Git}
-    \href{https://www.linkedin.com/in/wesleybanfield/}{Linkedin}
-    \href{https://github.com/WesleyTheGeolien}{Github}
-  % use  \hspace{} or \vspace{} to change bubble size, if needed
-  \section{Technologies}
-	\textbf{Jupyter}\includegraphics[scale=0.40]{img/4stars.png}
-	\textbf{Orange}\includegraphics[scale=0.40]{img/4stars.png}
-	\textbf{Plotly/Dash}\includegraphics[scale=0.40]{img/4stars.png}
-	\textbf{Sklearn}\includegraphics[scale=0.40]{img/3stars.png}
-	\textbf{Docker}\includegraphics[scale=0.40]{img/3stars.png}
-	\textbf{Microsoft PowerApps / Flow}\includegraphics[scale=0.40]{img/2stars.png}
-	~
-  \section{Languages}
-	\textbf{Python}\includegraphics[scale=0.40]{img/5stars.png}
-	\textbf{C++}\includegraphics[scale=0.4]{img/3stars.png}
-	\textbf{\LaTeX}\includegraphics[scale=0.4]{img/4stars.png}
-	~ 
-	~
-  \section{Geological Software}
-	\textbf{LeapFrog}\includegraphics[scale=0.40]{img/5stars.png}
-	\href{http://www.ccgalberta.com/}{\textbf{CCG}}\includegraphics[scale=0.40]{img/5stars.png}
-	\href{http://www.pdgm.com/products/skua-gocad/}{\textbf{Skua}}\includegraphics[scale=0.40]{img/3stars.png}
-	\textbf{QGis}\includegraphics[scale=0.40]{img/3stars.png}
-	\href{https://snowdengroup.com/software/supervisor/}{\textbf{Supervisor}}\includegraphics[scale=0.40]{img/3stars.png}
-	~
-%  \section{Personal Skills}
-%    \smartdiagram[bubble diagram]{
-%        \textbf{Team}\\\textbf{Player},
-%        \textbf{Initiative},
-%        \textbf{Curiosity},
-%        \textbf{Problem}\\\textbf{Solving},
-%        \textbf{\vspace{2mm}Manage\vspace{2mm}},
-%        \textbf{Organize}
-%    }
-    ~
+  ~
+%  \section{Contact}
+%    \href{mailto:wesleybanfield@gmail.com}{\textbf{wesleybanfield@}\\gmail.com}\vspace{3pt}
+%    +64 27 777 55 09\vspace{3pt}
+%    25A Beckford Road,
+%    Christchurch, 8022
+%  ~\\[6pt]
+%  \section{Web \& Git}
+%    \href{https://www.linkedin.com/in/wesleybanfield/}{Linkedin}
+%    \href{https://github.com/WesleyTheGeolien}{Github}
 \end{aside}
+%  \section{Technologies}
+%	\textbf{Jupyter}\includegraphics[scale=0.40]{img/4stars.png}
+%	\textbf{Orange}\includegraphics[scale=0.40]{img/4stars.png}
+%	\textbf{Plotly/Dash}\includegraphics[scale=0.40]{img/4stars.png}
+%	\textbf{Sklearn}\includegraphics[scale=0.40]{img/3stars.png}
+%	\textbf{Docker}\includegraphics[scale=0.40]{img/3stars.png}
+%	\textbf{Microsoft PowerApps / Flow}\includegraphics[scale=0.40]{img/2stars.png}
+%	~
+%  \section{Languages}
+%	\textbf{Python}\includegraphics[scale=0.40]{img/5stars.png}
+%	\textbf{C++}\includegraphics[scale=0.4]{img/3stars.png}
+%	\textbf{\LaTeX}\includegraphics[scale=0.4]{img/4stars.png}
+%	~ 
+%	~
+%  \section{Geological Software}
+%	\textbf{LeapFrog}\includegraphics[scale=0.40]{img/5stars.png}
+%	\href{http://www.ccgalberta.com/}{\textbf{CCG}}\includegraphics[scale=0.40]{img/5stars.png}
+%	\href{http://www.pdgm.com/products/skua-gocad/}{\textbf{Skua}}\includegraphics[scale=0.40]{img/3stars.png}
+%	\textbf{QGis}\includegraphics[scale=0.40]{img/3stars.png}
+%	\href{https://snowdengroup.com/software/supervisor/}{\textbf{Supervisor}}\includegraphics[scale=0.40]{img/3stars.png}
+%	~
+%%  \section{Personal Skills}
+%%    \smartdiagram[bubble diagram]{
+%%        \textbf{Team}\\\textbf{Player},
+%%        \textbf{Initiative},
+%%        \textbf{Curiosity},
+%%        \textbf{Problem}\\\textbf{Solving},
+%%        \textbf{\vspace{2mm}Manage\vspace{2mm}},
+%%        \textbf{Organize}
+%%    }
+%    ~
+%\end{aside}
 ~
-\begin{quote}
+%\begingroup
+%\addtolength\leftmargini{3.5cm}
+\begin{reduced}
 \large	
 Disruption occurs when you are not paying attention and staying at the forefront of innovation is key. Oil \& Gas Geologist by trade with specializations- in Software Engineering I strive to \textbf{unite technology and innovation} to push the boundaries of what’s possible.
-\end{quote}
+
+\centering
+\vspace{9pt}
+\href{mailto:wesleybanfield@gmail.com}{\textbf{wesleybanfield@gmail.com}}
+\\+64 27 777 55 09 25A Beckford Road, Christchurch, 8022
+\end{reduced}
+
+\begin{table}[!h]
+	\centering
+	\hspace*{3cm}
+	\begin{tabular}{L{2.25cm}cL{1cm}L{2.25cm}cL{1cm}L{2.25cm}c}
+		\multicolumn{2}{c}{\textbf{Technologies}} && \multicolumn{2}{c}{\textbf{Languages}} && \multicolumn{2}{c}{\textbf{Geological Software}} \\
+		\textbf{Jupyter} & \includegraphics[scale=0.40]{img/4stars.png} && \textbf{Python} & \includegraphics[scale=0.40]{img/5stars.png} && \textbf{LeapFrog} & \includegraphics[scale=0.40]{img/5stars.png} \\
+		\textbf{Orange} &  \includegraphics[scale=0.40]{img/4stars.png} &&
+		\textbf{C++} & \includegraphics[scale=0.4]{img/3stars.png} &&
+		\href{http://www.ccgalberta.com/}{\textbf{CCG}} & \includegraphics[scale=0.40]{img/5stars.png} \\
+		\textbf{Plotly/Dash} & \includegraphics[scale=0.40]{img/4stars.png} &&
+		\textbf{\LaTeX} & \includegraphics[scale=0.4]{img/4stars.png} &&
+		\href{http://www.pdgm.com/products/skua-gocad/}{\textbf{Skua}} & \includegraphics[scale=0.40]{img/3stars.png} \\
+		\textbf{Sklearn} & \includegraphics[scale=0.40]{img/3stars.png} && 
+		& 
+		&&
+		\textbf{QGis} & \includegraphics[scale=0.40]{img/3stars.png} \\
+		\textbf{Docker}&
+		\includegraphics[scale=0.40]{img/3stars.png} &&
+		&
+		&&
+		\href{https://snowdengroup.com/software/supervisor/}{\textbf{Supervisor}}&
+		\includegraphics[scale=0.40]{img/3stars.png}\\
+		\textbf{Microsoft PowerApps / Flow}&
+		\includegraphics[scale=0.40]{img/2stars.png}&&
+		&
+		&&
+		&
+	\end{tabular}
+\end{table}
+
 \section{Experience}
 \begin{entrylist}
   \entry
@@ -134,6 +155,10 @@ Disruption occurs when you are not paying attention and staying at the forefront
     {Software Integration Engineering Internship}
     {\href{https://www.total.com/en}{Total, Pau France}}
     {Grids play an important part in coupled Oil \& Gas basin modelling. Too fine, the computation time prevails, too coarse, the calcualtions do not converge. As a software integration engineer I implemented an interface with \href{http://www.ring-team.org/software/ringmesh}{RINGMesh} library to dynamically re-meshing during the simulation.\\ Reference : \href{mailto:tristan.cornu@total.com}{Tristan Cornu, Pore pressure and Rock Mechanics Specialist}}
+    \end{entrylist}
+    
+    \vspace*{\fill}
+    \begin{entrylist}
     \entry
     {02/16 - 05/16}
     {Research Intern}
@@ -146,10 +171,7 @@ Disruption occurs when you are not paying attention and staying at the forefront
     {Design and development of a graphical user interface for geostatistical analysis in Leapfrog 3D Geological modelling suite, later integrated into Leapfrog EDGE. Implementation of different geostatistical algorithms.
     \\
     Reference : \href{mailto:tim.mclennan@seequent.com}{Tim McLennan}}
-\end{entrylist}
 
-\vspace*{\fill}
-\begin{entrylist}
 	\entry
 	{09/14 - 05/15}
 	{Lab Research Project}
