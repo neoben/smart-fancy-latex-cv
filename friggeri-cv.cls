@@ -75,7 +75,7 @@
 
 %%% modified by Karol Kozioł for ShareLaTex use
 \RequirePackage[quiet]{fontspec}
-\RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
+\RequirePackage{unicode-math}
 
 \newfontfamily\bodyfont
 [BoldFont=texgyreheros-bold.otf,
@@ -312,7 +312,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 
 \DeclareNameFormat{author}{%
   \small\addfontfeature{Color=lightgray}%
-  \ifblank{#3}{}{#3\space}#1%
+  \nameparts{#1}\ifblank{\namepartgiven}{}{\namepartgiven\space}\namepartfamily%
   \ifthenelse{\value{listcount}<\value{liststop}}
     {\addcomma\space}
     {}%
@@ -320,12 +320,13 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 
 \newcommand{\printbibsection}[2]{
   \begin{refsection}
+    \newrefcontext[sorting=chronological]%
     \nocite{*}
-    \printbibliography[sorting=chronological, type={#1}, title={#2}, heading=subbibliography]
+    \printbibliography[type={#1}, title={#2}, heading=subbibliography]
   \end{refsection}
 }
 
-\DeclareSortingScheme{chronological}{
+\DeclareSortingTemplate{chronological}{
   \sort[direction=descending]{\field{year}}
   \sort[direction=descending]{\field{month}}
 }
