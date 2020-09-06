@@ -18,16 +18,16 @@ If you alter, transform, or build upon this work, you may distribute the resulti
 ITALIANO
 ========
 
-Questo lavoro Ã¨ sotto licenza Creative Commons Attribution-ShareAlike 3.0 Unported License.
+Questo lavoro è sotto licenza Creative Commons Attribution-ShareAlike 3.0 Unported License.
 Referenza: http://creativecommons.org/licenses/by-sa/3.0/
 
 Siete liberi di copiare, distribuire e trasmettere il lavoro.
 
 Siete liberi di adattare il lavoro.
 
-Dovete attribuire la paternitÃ  del lavoro originale a Carmine Benedetto.
+Dovete attribuire la paternità  del lavoro originale a Carmine Benedetto.
 Referenza (Carmine Benedetto): http://www.carminebenedetto.net
 
-Dovete attribuire la paternitÃ  del lavoro all'autore usando un commento, una nota o un file di testo in cui specificate chiaramente il nome dell'autore (Carmine Benedetto) e la referenza (http://www.carminebenedetto.net).
+Dovete attribuire la paternità del lavoro all'autore usando un commento, una nota o un file di testo in cui specificate chiaramente il nome dell'autore (Carmine Benedetto) e la referenza (http://www.carminebenedetto.net).
 
 Se alterate, trasformate  il lavoro o sviluppate sulla base di questo, dovete distribuire il lavoro risultante sotto la stessa licenza o simile a questa.
